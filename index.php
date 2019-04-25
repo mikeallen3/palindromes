@@ -2,7 +2,9 @@
 	
 	//Get file path for input.txt in work folder
 	$file_path = getcwd();
-	$input_file = $file_path . '\input.txt'; //Using this file for testing, replace as needed for testing
+	$input_file = $file_path . '/input.txt'; //Using this file for testing, replace as needed for testing
+
+	var_dump($input_file);
 
 	//Read entire file into array
 	$lines = file($input_file);
@@ -62,7 +64,7 @@
 	}
 
 	//Set the filename
-	$json_file_name = $file_path . '\generated_list.json';
+	$json_file_name = $file_path . '/generated_list.json';
 
 	//open or create the file
 	$handle = fopen($json_file_name,'w+');
