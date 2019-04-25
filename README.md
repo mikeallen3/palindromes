@@ -3,20 +3,20 @@ A php application for finding palindromes in string
 
 ##Subject: The test is to write production-level code which scans an input file with strings to be considered, one string on each line, and outputs a file that lists the palindromes found from each line. A palindrome is defined as a word, phrase, or sequence that reads the same backward as forward. Ignore punctuation and white-space when searching for and displaying palindromes. A palindrome may not necessarily be considered actual words and instead only considers whether or not the alphanumeric string or a portion of it, with punctuation and white-space removed, contain a sequence of characters satisfying the definition of a palindrome as given here. Finally, a single character is not considered a palindrome although two or more adjacent characters that are the same are considered palindromes.
 
-##Language: 
+## Language: 
 The test is to be implemented within a PHP script.
 
-##HINT: 
+## HINT: 
 for a list of strings which are known to contain/be palindromes, go to http://www.palindromelist.net/.
 
-##Caveats: The script must take into account:
+## Caveats: The script must take into account:
 1. There may be no palindrome found on a given line.
 2. There may be only one palindrome on a given line encompassing the entire line.
 3. There may be only one palindrome on a given line but is not encompassed by the entire line.
 4. There may be multiple palindromes on a given line.
 5. There may be palindromes within palindromes.
 
-##Output: A file using JSON notation which lists:
+## Output: A file using JSON notation which lists:
 1. The entire line, unmodified, within which one or more palindromes were found.
 2. The list of palindromes found on the given line.
 3. The total number of characters comprising all palindromes found on the given line, with punctuation and white-
@@ -25,10 +25,10 @@ space removed.
 found for a given line, punctuation and white-space excluded.
 5. If a given line contains no palindromes, the line will not be in the output.
 
-##Execution: 
+## Execution: 
 The script must be able to be executed on the command line with full instructions, including test file, provided by the script must be able to function using any other sample/test file with the same type of contents.
 
-##Requirements:
+## Requirements:
 1. The code must be conformant to both PHP versions 5 and 7.
 2. Any standard for formatting code and comments is acceptable as long as it is consistent.
 3. Code is expected to be "Production" level and should be commented as necessary to enable future coders to understand what the code is doing. Any style of commenting is acceptable as long as it is, again, consistent.
