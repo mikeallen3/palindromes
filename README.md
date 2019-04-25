@@ -1,7 +1,8 @@
 # Palindromes
 A php application for finding palindromes in string
 
-##Subject: The test is to write production-level code which scans an input file with strings to be considered, one string on each line, and outputs a file that lists the palindromes found from each line. A palindrome is defined as a word, phrase, or sequence that reads the same backward as forward. Ignore punctuation and white-space when searching for and displaying palindromes. A palindrome may not necessarily be considered actual words and instead only considers whether or not the alphanumeric string or a portion of it, with punctuation and white-space removed, contain a sequence of characters satisfying the definition of a palindrome as given here. Finally, a single character is not considered a palindrome although two or more adjacent characters that are the same are considered palindromes.
+## Subject: 
+The test is to write production-level code which scans an input file with strings to be considered, one string on each line, and outputs a file that lists the palindromes found from each line. A palindrome is defined as a word, phrase, or sequence that reads the same backward as forward. Ignore punctuation and white-space when searching for and displaying palindromes. A palindrome may not necessarily be considered actual words and instead only considers whether or not the alphanumeric string or a portion of it, with punctuation and white-space removed, contain a sequence of characters satisfying the definition of a palindrome as given here. Finally, a single character is not considered a palindrome although two or more adjacent characters that are the same are considered palindromes.
 
 ## Language: 
 The test is to be implemented within a PHP script.
