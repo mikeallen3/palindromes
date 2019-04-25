@@ -1,4 +1,4 @@
-# palindromes
+# Palindromes
 A php application for finding palindromes in string
 
 Subject: The test is to write production-level code which scans an input file with strings to be considered, one string on each line, and outputs a file that lists the palindromes found from each line.
